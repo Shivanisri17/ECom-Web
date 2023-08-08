@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
+
+.container-fluid /*Header*/
+{
+    background-color: rgb(221, 218, 217);
+   
+}
+.Hero
+{
+ font-size: 20px;
+ color:rgba(0, 0, 0, 0.932);
+ font-weight: 400;
+ font-style: italic;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item{
+    padding: 20px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*home*/
+.card-title1
+{
+   padding: 100px 0px 0px 600px;
+   color: rgb(42, 44, 44);
+}
+.card-text1{
+    color: rgb(25, 25, 25);
+   padding: 20px 0px 0px 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-title2{
+
+padding: 200px 40px 0px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text2{
+padding: 20px 0px 0px 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d-block{
+    height: 20px;
+}
+
+.d-block1{
+    height: 660px;
+}
+
+.d-block2
+{
+    height: 660px;
+}
+
+.card-title3{
+    padding: 400px 0px 0px 100px;
+}
+
+.card-text3{
+    padding: 20px 0px 0px 110px;
+}
+
+.card-title4{
+    padding: 170px 0px 0px 10px;
+}
+
+.card-text4{
+    padding: 20px 0px 0px 80px;
+}
+
+/*products*/
+
+.dot{
+    color: rgb(230, 196, 9);
+   display: flex;
+  
+   flex-direction: row-reverse;
+   
+}
+
+.errorMessage
+{
+    color:red;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+.form-con{                   
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2f3235; 
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+    outline:none;
+}
+
+/* login signup */
+
+.form-check-label1
+{
+padding: 0px 210px 0px 10px;
+
+}
+ .modal-title 
+{
+    padding: 0px 0px 0px 180px;
+    font-size: 32px;
+}
+.form-check-input1
+{
+  margin: 0px 0px 0px -25px;
+ 
+}
+
+.form-check-input2{
+    margin: 0px 5px 0px -25px;
+}
+
+/*footer*/
+.shift
+{
+    color: rgb(109, 107, 107) ;
+    
+}
+.shift1
+{
+    color: rgb(109, 107, 107) ;
+    font-size: 33px;
+}
+
+.shift2{
+    margin-bottom: 70px;
+}
+
+.text-uppercase
+{
+    font-size: 22px;
+}
+.bg-light
+{
+    font-size: 18px;
+   
+}
+.dots
+{
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 0px 15px 0px 15px;
+    color: rgb(109, 107, 107) ;
+   
+}
+
+
+.emails{
+    margin: 0px 15px 0px 40px;
+    padding: 0px 230px 0px 10px;
+   outline: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: #404245;
+    
+}
+.dots:hover
+{
+    
+    background-color:#0e0e0e;
+    color: white;
+}
+
+.grap
+{
+    text-align: center;
+}
+
+/*card*/
+.card5{
+    transition: all 0.5s ease;
+}
+
+
+.card5:hover{
+   transform: scale(1.1);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.list-inline-item 
+{
+    transition: all 0.1s ease;
+}
+
+.list-inline-item:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+.flow
+{
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.flow1:hover{
+    transform: scale(1.1);
+}
+
+.flow:hover{
+    transform: scale(1.1);
+}
+
+/*product */
+.product img{
+    transition: all 0.5s ease;
+}
+
+.product img:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*cart*/
+.bg-blue
+{
+    background-color:rgb(233, 231, 231);
+    text-align: center;
 }
